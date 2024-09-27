@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Who are you going to call?</title>
+    <link rel="icon" type="image/x-icon" href="./images/icon.ico">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <input type="text" id="wordInput" size="s" style="position: fixed; bottom: 300px;">
+  <button onclick="redirect()" style="position: fixed; bottom: 280px;">ENTER</button>
+
+  <script style="position: fixed;">
+    function redirect() {
+      var word = document.getElementById("wordInput").value;
+
+      if (word === "61466277057") {
+        window.location.href = "ambersnumber.html";
+      } else if (word === "0491106446") {
+        window.location.href = "codysnumber.html";
+      } else if (word === "911") {
+        window.location.href = "emergencyservices.html";
+      } else if (word === "000") {
+        window.location.href = "emergencyservices.html";
+      } else if (word === "999") {
+        window.location.href = "emergencyservices.html";
+      } else {
+        alert("The number you are trying to call is not currently available");
+      }
+    }
+  </script>
+
+
+
+</body>
+</html>
+
+
+<style>
+    body {
+      background-image: url('./images/placeholder.png');
+      background-attachment: fixed;
+      background-size: 80% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: black;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      
+    }
+</style>
+
+</html>
